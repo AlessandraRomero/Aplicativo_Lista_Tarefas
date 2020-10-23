@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="Lista de Tarefas">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+   <header class="topo">
+        <div class="logotipo">
+            <i class="fas fa-check"></i>
+        </div> 
+        <div class="titulo">
+            <h1>Lista de Tarefas</h1>
+        </div>   
+   </header>
+   <main class="principal">
+        <section class="formulario">
+           <h1>Nova Tarefa</h1> 
+           <form>
+                <input type="text" name="descricao" placeholder="Descrição da Tarefa" required>
+                <select name="quadroSelecionado">
+                    <option value=".aFazer">A fazer</option>
+                    <option value=".emAndamento">Em Andamento</option>
+                    <option value=".concluido">Concluído</option>
+                </select>
+                <button type="button" class="btnAdicionar"><i class="fas fa-plus"></i></button>
+           </form>
+        </section>
+        <section class="quadros">
+            <div class="quadro aFazer">
+               
+            </div>
+            <div class="quadro emAndamento">
+                
+            </div>
+            <div class="quadro concluido">
+                
+            </div>
+        </section>
+   </main>
+   <footer class="rodape">
+     
+   </footer>
+   <script src="js/script.js"></script>
+</body>
+</html>

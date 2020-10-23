@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #272c35;
+    font-family: 'Roboto', sans-serif;
+}
+.topo{
+    width: 100%;
+    height: 50px;
+    background: #079BAB;
+    color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+}
+.topo .logotipo{
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.topo .titulo{
+    font-size: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #2e303b;
+    padding: 25px;
+}
+.formulario input,.formulario select{
+    padding: 5px;
+    background: #404552;
+    border:0;
+    outline: none;
+    font-size: 16px;
+    color:white;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.formulario .btnAdicionar{
+    padding: 5px;
+    width: 60px;
+    background: #079BAB;
+    border:0;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.formulario h1{
+    font-size: 16px;
+    color: white;
+    border-left: solid 8px #079BAB;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.quadros{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+.quadro{
+    width: 300px;
+    background: #2e303b;
+    padding: 10px;
+    margin: 10px;   
+}
+.quadro h1{
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+}
+.quadro.aFazer{
+    box-shadow: 0px 2px 2px -1px #DA6276;
+}
+.quadro.emAndamento{
+    box-shadow: 0px 2px 2px -1px #FFC432;
+}
+.quadro.concluido{
+    box-shadow: 0px 2px 2px -1px #079BAB;
+}
+.cartao{
+    background: #404552;
+    color:white;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: move;
+    margin-bottom: 10px;
+}
+.aFazer .cartao{
+    box-shadow: 0px 2px 2px -1px #DA6276;
+}
+.emAndamento .cartao{
+    box-shadow: 0px 2px 2px -1px #FFC432;
+}
+.concluido .cartao{
+    box-shadow: 0px 2px 2px -1px #079BAB;
+}
+.status{
+    padding: 4px;
+    width: 30px;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+.aFazer .status{
+  background: #DA6276;
+}
+.emAndamento .status{
+    background: #FFC432;
+}
+.concluido .status{
+    background: #079BAB;
+}
+
+.quadrosDestaque{
+    background-color:#02555E;
+}
+.quadrosRealce{
+    background-color: #038d9c;
+}
